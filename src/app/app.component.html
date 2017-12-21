@@ -1,0 +1,6 @@
+<div>
+  <input type="text" [value] = firstname  #txtname1 (keyup)="0">
+  <input type="text" [value] = lastname  #txtname2 (keyup)="0">
+  <button (click)="onclick(txtname1.value,txtname2.value)">Submit</button>
+  <p>{{result}}</p>
+</div>
